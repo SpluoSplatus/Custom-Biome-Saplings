@@ -1,0 +1,34 @@
+{
+    "pack": {
+      "pack_format": 48,
+      "supported_formats": {
+        "min_inclusive": 15,
+        "max_inclusive": 999
+      },
+      "description": [
+        {
+          "translate": "Biome Sapling Compatibility",
+          "color": "#afba68"
+        },
+        {
+          "translate": "\n"
+        },
+        {
+          "translate": "Version 1.1.4 - MC 1.21.0-4",
+          "color": "gray"
+        }
+      ]
+    },
+    "overlays": {
+      "entries": [
+        {
+          "directory": "1.20.4",
+          "formats": {
+            "max_inclusive": 9999,
+            "min_inclusive": 61
+          }
+        }
+      ]
+    }
+  }
+  

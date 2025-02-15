@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+{"id":"blooming_biosphere:snowy_cherry_grove","required":false} ,
+{"id":"blooming_biosphere:tidepools","required":false} ,
+{"id":"blooming_biosphere:chapparal","required":false} ,
+{"id":"blooming_biosphere:rainforest","required":false} ,
+{"id":"blooming_biosphere:oak_woodland","required":false} ,
+{"id":"blooming_biosphere:marsh","required":false}
+    ]
+}

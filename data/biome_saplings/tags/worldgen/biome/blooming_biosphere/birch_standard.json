@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+ {"id":"minecraft:forest","required":false},
+ {"id":"blooming_biosphere:autumnal_forest","required":false},
+ {"id":"minecraft:flower_forest","required":false}
+  ]
+}

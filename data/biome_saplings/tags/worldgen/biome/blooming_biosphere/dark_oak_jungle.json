@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+ {"id":"minecraft:bamboo_jungle","required":false}
+  ]
+}

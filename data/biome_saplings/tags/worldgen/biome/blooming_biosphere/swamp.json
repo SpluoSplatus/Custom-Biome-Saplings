@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+ {"id":"minecraft:swamp","required":false},
+ {"id":"blooming_biosphere:marsh","required":false},
+ {"id":"minecraft:mangrove_swamp","required":false}
+  ]
+}

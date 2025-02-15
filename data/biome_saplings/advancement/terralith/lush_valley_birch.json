@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "blooming_biosphere"
+              },
+              "score": "saplings_storage"
+            },
+            "range": 0
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": false
+              }
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#biome_saplings:terralith/lush_valley",
+              "block": {
+                "blocks": [
+                  "minecraft:birch_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "biome_saplings:terralith/find/lush_valley_birch"
+  }
+}

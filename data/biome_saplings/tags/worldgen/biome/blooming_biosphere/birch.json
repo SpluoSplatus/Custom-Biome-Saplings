@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+ {"id":"minecraft:birch_forest","required":false},
+ {"id":"blooming_biosphere:rainforest","required":false},
+ {"id":"minecraft:grove","required":false}
+  ]
+}
